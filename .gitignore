@@ -1,7 +1,18 @@
+# Ambiente
 .venv/
-data/raw/       # dados brutos não sobem pro git (arquivos grandes)
-*.csv
-*.zip
 .env
-__pycache__/
+
+# Dados brutos (arquivos grandes não sobem pro git)
+data/raw/
+*.zip
+
+# Jupyter
 .ipynb_checkpoints/
+__pycache__/
+
+# VS Code
+.vscode/
+
+# OS
+Thumbs.db
+desktop.ini
